@@ -76,4 +76,4 @@ if data_df is not None:
         dataset = load_dataset(data_df, tokenizer)
         pred_answer, _ = inference(model, dataset, device)
         answer = num_to_label(pred_answer)
-        st.info(f"relation: {answer[0]}")
+        st.info(f"관계: {answer[0]}")
