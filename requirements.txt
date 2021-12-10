@@ -1,0 +1,6 @@
+streamlit==1.1.0
+torch==1.10.0
+transformers
+pickle
+numpy
+pandas
